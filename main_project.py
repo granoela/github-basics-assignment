@@ -12,11 +12,17 @@ def calculate_sum(a, b):
     """Calculate and return the sum of two numbers"""
     return a + b
 
+def multiply_numbers(a, b):
+    """Calculate and return the product of two numbers"""
+    return a * b
+
 def main():
     """Main function to demonstrate project functionality"""
     print(greet("Developer"))
-    result = calculate_sum(10, 20)
-    print(f"Sum of 10 and 20 is: {result}")
+    sum_result = calculate_sum(10, 20)
+    print(f"Sum of 10 and 20 is: {sum_result}")
+    product_result = multiply_numbers(5, 6)
+    print(f"Product of 5 and 6 is: {product_result}")
 
 if __name__ == "__main__":
     main()
